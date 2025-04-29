@@ -140,5 +140,12 @@ ul.main-menu li a.active {
   display:block;
 }
 
-
+.profile-pic {
+  width: 150px;         /* Adjust the width */
+  height: 150px;        /* Adjust the height */
+  object-fit: cover;    /* Keep the image nicely cropped if needed */
+  border-radius: 50%;   /* Makes the picture circular */
+  display: block;       /* Makes sure it behaves properly */
+  margin: 20px auto;    /* Center it horizontally with auto margins */
+}
 
