@@ -18,7 +18,7 @@
     <a class="wordmark" href="#top" aria-label="Tsz Wai Ko, home">TWK<span>.</span></a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span class="sr-only">Toggle navigation</span><span></span><span></span></button>
     <div class="nav-links" id="nav-links">
-      <a href="#research">Research</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+      <a href="#research">Research</a><a href="#experience">Experience</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
     </div>
   </nav>
 
@@ -54,19 +54,62 @@
       </div>
     </section>
 
+    <section class="experience section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading experience-heading">
+        <div><p class="eyebrow">Academic journey</p><h2 id="experience-title">Experience &amp; education</h2></div>
+        <p>My work spans theoretical chemistry, materials science, and artificial intelligence, with a consistent focus on connecting physical insight to scalable computation.</p>
+      </div>
+
+      <div class="academic-layout">
+        <div class="timeline-column">
+          <h3 class="column-title">Postdoctoral experience</h3>
+          <article class="timeline-item">
+            <div class="timeline-meta"><time datetime="2025-04">2025—Present</time><span>Toronto, Canada</span></div>
+            <div><h4>Distinguished Postdoctoral Fellow</h4><p class="institution">Vector Institute &amp; University of Toronto</p><p>Developing multi-agent systems for autonomous materials workflows, generative models across molecular and materials domains, and next-generation interatomic potentials for dielectric response.</p><p class="mentors">Mentors: Alán Aspuru-Guzik &amp; Anatole von Lilienfeld</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta"><time datetime="2022-10">2022—2024</time><span>San Diego, USA</span></div>
+            <div><h4>Schmidt AI in Science Postdoctoral Fellow</h4><p class="institution">University of California, San Diego</p><p>Led the development of MatGL and advanced multi-fidelity and foundation machine-learning interatomic potentials for materials simulations.</p><p class="mentors">Mentor: Shyue Ping Ong</p></div>
+          </article>
+        </div>
+
+        <aside class="credentials-column">
+          <div class="credential-group">
+            <h3 class="column-title">Education</h3>
+            <div class="credential"><time>2019—2022</time><h4>PhD, Theoretical Chemistry</h4><p>University of Göttingen</p><span>Summa Cum Laude · Advisor: Jörg Behler</span></div>
+            <div class="credential"><time>2016—2018</time><h4>MPhil, Theoretical &amp; Computational Physics</h4><p>Hong Kong Polytechnic University</p><span>Advisor: Nicolas Onofrio</span></div>
+            <div class="credential"><time>2014—2016</time><h4>BSc, Engineering Physics</h4><p>Hong Kong Polytechnic University</p><span>Second Honors with 1st Class</span></div>
+            <div class="credential"><time>2012—2014</time><h4>Higher Diploma, Applied Physics</h4><p>Hong Kong Polytechnic University</p><span>Merit</span></div>
+          </div>
+          <div class="credential-group honors">
+            <h3 class="column-title">Fellowships &amp; awards</h3>
+            <div class="honor"><time>2025—2027</time><p>Vector Distinguished Postdoctoral Fellowship</p></div>
+            <div class="honor"><time>2023—2024</time><p>Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship</p></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
     <section class="publications section" id="publications" aria-labelledby="publications-title">
       <div class="section-heading publications-heading">
         <div><p class="eyebrow">Selected publications</p><h2 id="publications-title">Research output</h2></div>
         <a class="text-link" href="https://scholar.google.com/citations?user=WE5THVoAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">View all on Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
+      <div class="contribution-summary" aria-label="Authorship contribution summary for the selected publications below">
+        <div><strong>8</strong><span>First or co-first author</span></div>
+        <div><strong>3</strong><span>Equal-contribution papers</span></div>
+        <div><strong>5</strong><span>Corresponding author</span></div>
+      </div>
+      <p class="author-legend"><span aria-hidden="true">†</span> Equal contribution <span aria-hidden="true">·</span> <span aria-hidden="true">*</span> Corresponding author</p>
       <ol class="publication-list">
-        <li class="publication"><div class="publication-year">2025</div><div><h3>Materials Graph Library (MatGL), an Open-Source Graph Deep Learning Library for Materials Science and Chemistry</h3><p><strong>T. W. Ko</strong>, B. Deng, M. Nassar, L. B.-Luque, R. Liu, J. Qi, A. C. Thakur, A. R. Mishra, E. Liu, G. Ceder, S. Miret, S. P. Ong</p><p class="venue"><cite>npj Computational Materials</cite> 11, 253</p></div></li>
-        <li class="publication"><div class="publication-year">2025</div><div><h3>Data-Efficient Construction of High-Fidelity Graph Deep Learning Interatomic Potentials</h3><p><strong>T. W. Ko</strong>, S. P. Ong</p><p class="venue"><cite>npj Computational Materials</cite> 11, 65</p></div></li>
+        <li class="publication publication-featured"><div class="publication-year"><span>Accepted</span>2026</div><div><h3><a href="https://arxiv.org/abs/2511.07249" target="_blank" rel="noreferrer">A Fast, Accurate, and Reactive Equivariant Foundation Potential <span aria-hidden="true">↗</span></a></h3><p><strong>T. W. Ko*</strong>, R. Liu, A. R. Mishra, Z. Yu, J. Qi, S. P. Ong*</p><p class="venue"><cite>Nature Computational Science</cite> · Accepted</p><p class="publication-note">Introducing charge-equilibrated TensorNet (QET), a linear-scaling, charge-aware foundation potential for reactive atomistic simulation.</p></div></li>
+        <li class="publication"><div class="publication-year">2025</div><div><h3>Materials Graph Library (MatGL), an Open-Source Graph Deep Learning Library for Materials Science and Chemistry</h3><p><strong>T. W. Ko*</strong>, B. Deng, M. Nassar, L. B.-Luque, R. Liu, J. Qi, A. C. Thakur, A. R. Mishra, E. Liu, G. Ceder, S. Miret, S. P. Ong*</p><p class="venue"><cite>npj Computational Materials</cite> 11, 253</p></div></li>
+        <li class="publication"><div class="publication-year">2025</div><div><h3>Data-Efficient Construction of High-Fidelity Graph Deep Learning Interatomic Potentials</h3><p><strong>T. W. Ko*</strong>, S. P. Ong*</p><p class="venue"><cite>npj Computational Materials</cite> 11, 65</p></div></li>
         <li class="publication"><div class="publication-year">2023</div><div><h3>Recent Advances and Outstanding Challenges for Machine Learning Interatomic Potentials</h3><p><strong>T. W. Ko</strong>, S. P. Ong</p><p class="venue"><cite>Nature Computational Science</cite> 3, 998</p></div></li>
-        <li class="publication"><div class="publication-year">2023</div><div><h3>Accurate Fourth-Generation Machine Learning Potentials by Electrostatic Embedding</h3><p><strong>T. W. Ko</strong>, J. A. Finkler, S. Goedecker, J. Behler</p><p class="venue"><cite>Journal of Chemical Theory and Computation</cite> 19, 3567–3579</p></div></li>
-        <li class="publication"><div class="publication-year">2022</div><div><h3>Neural Network Potentials: A Concise Overview of Methods</h3><p>E. Kocer, <strong>T. W. Ko</strong>, J. Behler</p><p class="venue"><cite>Annual Review of Physical Chemistry</cite> 73, 163–186</p></div></li>
-        <li class="publication"><div class="publication-year">2021</div><div><h3>General-Purpose Machine Learning Potentials Capturing Nonlocal Charge Transfer</h3><p><strong>T. W. Ko</strong>, J. A. Finkler, S. Goedecker, J. Behler</p><p class="venue"><cite>Accounts of Chemical Research</cite> 54, 808–817</p></div></li>
-        <li class="publication"><div class="publication-year">2021</div><div><h3>A Fourth-Generation High-Dimensional Neural Network Potential with Accurate Electrostatics Including Non-Local Charge Transfer</h3><p><strong>T. W. Ko</strong>, J. A. Finkler, S. Goedecker, J. Behler</p><p class="venue"><cite>Nature Communications</cite> 12, 398</p></div></li>
+        <li class="publication"><div class="publication-year">2023</div><div><h3>Accurate Fourth-Generation Machine Learning Potentials by Electrostatic Embedding</h3><p><strong>T. W. Ko*</strong>, J. A. Finkler, S. Goedecker, J. Behler*</p><p class="venue"><cite>Journal of Chemical Theory and Computation</cite> 19, 3567–3579</p></div></li>
+        <li class="publication"><div class="publication-year">2022</div><div><h3>Neural Network Potentials: A Concise Overview of Methods</h3><p>E. Kocer†, <strong>T. W. Ko†</strong>, J. Behler*</p><p class="venue"><cite>Annual Review of Physical Chemistry</cite> 73, 163–186</p></div></li>
+        <li class="publication"><div class="publication-year">2021</div><div><h3>General-Purpose Machine Learning Potentials Capturing Nonlocal Charge Transfer</h3><p><strong>T. W. Ko†</strong>, J. A. Finkler†, S. Goedecker*, J. Behler*</p><p class="venue"><cite>Accounts of Chemical Research</cite> 54, 808–817</p></div></li>
+        <li class="publication"><div class="publication-year">2021</div><div><h3>A Fourth-Generation High-Dimensional Neural Network Potential with Accurate Electrostatics Including Non-Local Charge Transfer</h3><p><strong>T. W. Ko*†</strong>, J. A. Finkler*†, S. Goedecker, J. Behler</p><p class="venue"><cite>Nature Communications</cite> 12, 398</p></div></li>
       </ol>
       <div class="preprints">
         <p class="eyebrow">Recent preprints</p>
