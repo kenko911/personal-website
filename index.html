@@ -7,18 +7,22 @@
   <meta name="author" content="Tsz Wai Ko">
   <meta name="theme-color" content="#081719">
   <title>Tsz Wai Ko | Machine Learning for Materials Discovery</title>
+  <script>try{const savedTheme=localStorage.getItem('theme');document.documentElement.dataset.theme=savedTheme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(error){document.documentElement.dataset.theme='light'}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20261112-transparent-figures">
+  <link rel="stylesheet" href="style.css?v=20261112-themes-github">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <nav class="site-nav" aria-label="Primary navigation">
     <a class="wordmark" href="#top" aria-label="Tsz Wai Ko, home">TWK<span>.</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span class="sr-only">Toggle navigation</span><span></span><span></span></button>
-    <div class="nav-links" id="nav-links">
-      <a href="#research">Research</a><a href="#experience">Experience</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+    <div class="nav-controls">
+      <div class="nav-links" id="nav-links">
+        <a href="#research">Research</a><a href="#experience">Experience</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Switch color theme"><span class="theme-icon" aria-hidden="true">◐</span><span class="theme-label">Theme</span></button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span class="sr-only">Toggle navigation</span><span></span><span></span></button>
     </div>
   </nav>
 
@@ -31,6 +35,7 @@
       <div class="hero-actions">
         <a class="button button-primary" href="#publications">Explore my work</a>
         <a class="button button-secondary" href="https://scholar.google.com/citations?user=WE5THVoAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a class="button button-secondary" href="https://github.com/kenko911" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="portrait-wrap" aria-hidden="true">
@@ -130,6 +135,6 @@
   </main>
 
   <footer><p>© <span id="year">2026</span> Tsz Wai Ko</p><div class="social-links" aria-label="Social links"><a href="https://orcid.org/0000-0002-0802-9559" target="_blank" rel="noreferrer">ORCID</a><a href="https://github.com/kenko911" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/tsz-wai-ko-702389247/" target="_blank" rel="noreferrer">LinkedIn</a></div></footer>
-  <script src="script.js"></script>
+  <script src="script.js?v=20261112-themes-github"></script>
 </body>
 </html>
