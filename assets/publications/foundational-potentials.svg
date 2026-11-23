@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Foundational potentials across molecules and materials</title>
+  <desc id="desc">An editorial illustration connecting molecular and crystalline structures through a shared learned potential.</desc>
+  <defs>
+    <linearGradient id="bridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e76f51"/>
+      <stop offset="1" stop-color="#4f8f86"/>
+    </linearGradient>
+    <radialGradient id="atomWarm">
+      <stop offset="0" stop-color="#ffd7ca"/>
+      <stop offset="1" stop-color="#e76f51"/>
+    </radialGradient>
+    <radialGradient id="atomCool">
+      <stop offset="0" stop-color="#d8f0e8"/>
+      <stop offset="1" stop-color="#4f8f86"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" stroke="#4f8f86" stroke-linecap="round" stroke-width="7" opacity=".9">
+    <path d="M118 266 194 191 274 248 219 337 126 330Z"/>
+    <path d="M194 191 219 337M118 266 274 248" opacity=".45"/>
+    <path d="M535 183 625 137 710 192 703 292 612 342 527 287Z"/>
+    <path d="M625 137 612 342M535 183 703 292M710 192 527 287" opacity=".45"/>
+  </g>
+  <g>
+    <circle cx="118" cy="266" r="25" fill="url(#atomWarm)"/>
+    <circle cx="194" cy="191" r="30" fill="url(#atomCool)"/>
+    <circle cx="274" cy="248" r="24" fill="url(#atomWarm)"/>
+    <circle cx="219" cy="337" r="28" fill="url(#atomCool)"/>
+    <circle cx="126" cy="330" r="18" fill="#f3b66f"/>
+    <circle cx="535" cy="183" r="22" fill="url(#atomCool)"/>
+    <circle cx="625" cy="137" r="24" fill="#f3b66f"/>
+    <circle cx="710" cy="192" r="22" fill="url(#atomCool)"/>
+    <circle cx="703" cy="292" r="24" fill="#f3b66f"/>
+    <circle cx="612" cy="342" r="22" fill="url(#atomCool)"/>
+    <circle cx="527" cy="287" r="24" fill="#f3b66f"/>
+  </g>
+  <path d="M305 300c44-123 86-123 130 0 27 75 56 78 87 9" fill="none" stroke="url(#bridge)" stroke-width="12"/>
+  <path d="m506 302 21 7-11 20" fill="none" stroke="#4f8f86" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <text x="400" y="86" fill="#4f8f86" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">ONE POTENTIAL, MANY CHEMISTRIES</text>
+  <text x="194" y="420" fill="#4f8f86" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">MOLECULES</text>
+  <text x="620" y="420" fill="#4f8f86" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">MATERIALS</text>
+</svg>
